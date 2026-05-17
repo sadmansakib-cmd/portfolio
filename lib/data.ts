@@ -4,21 +4,21 @@
 // ============================================================
 
 export const profile = {
-  name: "Sadman",
+  name: "Sadman Sakib Mahi",
   firstName: "Sadman",
   title: "CSE Student & Aspiring Software Engineer",
   tagline: "Building real-world solutions through code.",
-  bio: "I'm a Computer Science & Engineering student on a mission to become a skilled software engineer who builds technology that matters. I believe in execution over theory — the best way to learn is to build, ship, iterate, and grow. Every project I take on is a step toward solving a real-world problem.",
-  location: "Bangladesh",
-  email: "sadman@example.com",        // ← replace with your real email
-  phone: "+880 1XXX-XXXXXX",           // ← replace with your real phone (or set to "" to hide)
+  bio: "I'm a Computer Science & Engineering student on a mission to become a skilled engineer who builds technology that matters. I believe in execution over theory — the best way to learn is to build, ship, iterate, and grow. Every project I take on is a step toward solving a real-world problem.",
+  location: "Dhaka,Bangladesh",
+  email: "sadman.sakib.w@gmail.com",        // ← replace with your real email
+  phone: "+880 1950291947",           // ← replace with your real phone (or set to "" to hide)
   availability: "Open to internships, collaborations & learning opportunities",
   resumeUrl: "#",                      // ← put your resume PDF here (e.g. /resume.pdf)
   socials: {
-    github: "https://github.com/yourusername",       // ← your GitHub
-    linkedin: "https://linkedin.com/in/yourusername", // ← your LinkedIn
-    facebook: "https://facebook.com/yourusername",    // ← your Facebook
-    email: "mailto:sadman@example.com",
+    github: "https://github.com/sadmansakib-cmd",       // ← your GitHub
+    linkedin: "https://www.linkedin.com/in/md-sadman-sakib-mahi7/", // ← your LinkedIn
+    facebook: "https://www.facebook.com/sadman.siuuu07",    // ← your Facebook
+    email: "sadman.sakib.w@gmail.com",
   },
 };
 
@@ -67,36 +67,36 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    title: "IoT-based Flood Early Warning System",
-    category: "IoT · Social Impact",
-    year: "2025",
-    problem:
-      "Bangladesh faces devastating floods every year, often catching rural communities unprepared. Existing warning systems are either too centralized or too expensive to deploy at scale.",
-    solution:
-      "An affordable IoT-based early warning system that monitors water levels in real-time and triggers alerts before flooding reaches critical zones — designed to be deployable in remote, flood-prone regions.",
-    impact:
-      "Aims to give vulnerable communities the precious time they need to evacuate, protect property, and save lives. Built with affordability and scalability as core constraints.",
-    tech: ["C/C++", "IoT Sensors", "Microcontroller", "Real-time Alerts"],
-    link: "#",
-    github: "#",
-    featured: true,
-  },
-  {
-    title: "MurgiBondhu — Poultry Temperature Monitoring",
-    category: "IoT · AgriTech",
-    year: "2025",
-    problem:
-      "Small-scale poultry farmers in Bangladesh lose birds and income due to unmonitored temperature changes inside coops. Commercial monitoring systems are far too expensive for them.",
-    solution:
-      "MurgiBondhu (\"Poultry's Friend\") is a low-cost temperature monitoring system that continuously tracks coop conditions and alerts farmers when temperatures cross safe thresholds.",
-    impact:
-      "Empowers small farmers with technology that was previously only accessible to large commercial operations — reducing bird mortality, increasing yield, and improving livelihoods.",
-    tech: ["C/C++", "Temperature Sensors", "IoT", "Alert System"],
-    link: "#",
-    github: "#",
-    featured: true,
-  },
+ {
+  title: "Hotel Management System",
+  category: "Software Development · Management System",
+  year: "2025",
+  problem:
+    "Small and mid-sized hotels often struggle with manual booking systems, inefficient room management, and poor record-keeping, leading to errors, overbooking, and customer dissatisfaction.",
+  solution:
+    "A structured hotel management system that digitizes room booking, customer records, and billing processes. The system streamlines operations, reduces human error, and improves overall efficiency.",
+  impact:
+    "Helps hotel staff manage reservations and customer data more efficiently, improving service quality and operational control while reducing manual workload.",
+  tech: ["C/C++", "File Handling / Database Concepts", "System Design"],
+  link: "https://github.com/sadmansakib-cmd/Hotel_management_system",
+  github: "https://github.com/sadmansakib-cmd/Hotel_management_system",
+  featured: true,
+},
+{
+  title: "Hospital Management System",
+  category: "Software Development · Healthcare System",
+  year: "2025",
+  problem:
+    "Hospitals and clinics often face challenges in managing patient records, appointments, and billing efficiently, especially when relying on manual or outdated systems.",
+  solution:
+    "A hospital management system designed to organize patient information, appointment scheduling, and billing into a centralized digital system for easier access and management.",
+  impact:
+    "Improves hospital workflow by reducing paperwork, minimizing errors, and enabling faster access to patient data, ultimately supporting better healthcare service delivery.",
+  tech: ["C/C++", "Data Structures", "System Logic"],
+  link: "https://github.com/sadmansakib-cmd/HospitalManagementSystem",
+  github: "https://github.com/sadmansakib-cmd/HospitalManagementSystem/tree/main/HMS_TAKE06-main/HMS_TAKE06-main/hms%20mail",
+  featured: true,
+}
 ];
 
 export const journey = [
@@ -134,25 +134,25 @@ export const habits = [
 export const education = [
   {
     degree: "B.Sc. in Computer Science & Engineering",
-    institution: "Your University Name",
-    location: "Bangladesh",
-    period: "2023 — Present",
+    institution: "Daffodil International UNiversity",
+    location: "Dhaka,Bangladesh",
+    period: "2025 — Present",
     description:
       "Currently pursuing my undergraduate degree. Focused on building strong fundamentals in programming, data structures, algorithms, and systems thinking — while applying them through real-world IoT projects.",
   },
   {
     degree: "Higher Secondary Certificate (Science)",
-    institution: "Your College Name",
-    location: "Bangladesh",
-    period: "2020 — 2022",
+    institution: "Govt. Michael Madhusudan College,Jashore",
+    location: "Jashore,Bangladesh",
+    period: "2022 — 2024",
     description:
       "Completed HSC in Science group, building foundations in mathematics, physics, and logical reasoning — the bedrock of engineering thinking.",
   },
   {
     degree: "Secondary School Certificate (Science)",
-    institution: "Your School Name",
-    location: "Bangladesh",
-    period: "2018 — 2020",
+    institution: "Municiple Preparatory Secondary School,Jashore",
+    location: "Jashore,Bangladesh",
+    period: "2020 — 2022",
     description:
       "Where it all started — curiosity in math and science that eventually grew into a love for computing.",
   },
