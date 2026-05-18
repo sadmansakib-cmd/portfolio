@@ -41,7 +41,7 @@ export const principles = [
 ];
 
 export const stats = [
-  { value: "2+", label: "Real-World Projects" },
+  { value: "4+", label: "Real-World Projects" },
   { value: "C/C++", label: "Core Languages" },
   { value: "IoT", label: "Hardware + Software" },
   { value: "∞", label: "Always Learning" },
@@ -96,7 +96,38 @@ export const projects = [
   link: "https://github.com/sadmansakib-cmd/HospitalManagementSystem",
   github: "https://github.com/sadmansakib-cmd/HospitalManagementSystem/tree/main/HMS_TAKE06-main/HMS_TAKE06-main/hms%20mail",
   featured: true,
+},
+{
+  title: "THE SPACESHIP — Mission Control Dashboard",
+  category: "Web App · Personal Productivity & Self-Tracking",
+  year: "2026",
+  problem:
+    "Daily self-improvement tracking is often inconsistent because data is scattered across notes/apps, progress isn’t visualized clearly, and there’s no structured scoring system to measure overall performance across key life areas.",
+  solution:
+    "A futuristic mission-control styled dashboard that lets a user log daily metrics (Study, Skills/Projects, Health, Discipline, Real Talk), automatically calculates category scores and overall synergy with bonus logic, and syncs logs to the cloud with weekly summaries and analytics.",
+  impact:
+    "Creates a consistent daily tracking habit, converts subjective routines into measurable telemetry, and provides quick insights through weekly logs and analytics—helping the user improve discipline and performance with data-backed decisions.",
+  tech: ["HTML", "CSS", "JavaScript", "Firebase Auth", "Firebase Realtime Database", "Chart.js"],
+  link: "https://the-spaceship.web.app/",
+  github: "https://github.com/sadmansakib-cmd/life-tracker",
+  featured: true,
+},
+{
+  title: "SADMAN — Personal Portfolio",
+  category: "Web Development · Personal Branding",
+  year: "2026",
+  problem:
+    "Projects, skills, and achievements often remain scattered across different platforms, making it hard to present a clear professional identity and proof of work in one place.",
+  solution:
+    "A clean, responsive portfolio website that showcases featured projects, skills/tech stack, education, and contact links in a single modern layout—built to be fast, readable, and easy to update.",
+  impact:
+    "Strengthens personal branding by presenting work professionally, improves discoverability for recruiters/clients, and provides a central hub linking to GitHub projects and other profiles.",
+  tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+  link: "https://portfolio-83o0gz543-sevens1.vercel.app/",  
+  github: "https://github.com/sadmansakib-cmd/portfolio", 
+  featured: true,
 }
+
 ];
 
 export const journey = [
@@ -128,9 +159,7 @@ export const habits = [
   "Treat consistency as a non-negotiable",
 ];
 
-// ============================================================
-// EDUCATION — edit these to match your real background
-// ============================================================
+
 export const education = [
   {
     degree: "B.Sc. in Computer Science & Engineering",
