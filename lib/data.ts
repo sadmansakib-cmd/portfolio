@@ -48,7 +48,6 @@ export const stats = [
 ];
 
 export const skills = [
- const skills = [
   {
     category: "Programming Languages",
     items: [
@@ -59,7 +58,7 @@ export const skills = [
       "C++",
       "Java",
       "HTML5",
-      "CSS3"
+      "CSS3",
     ],
   },
 
@@ -71,7 +70,7 @@ export const skills = [
       "Tailwind CSS",
       "Bootstrap",
       "Responsive Design",
-      "Framer Motion"
+      "Framer Motion",
     ],
   },
 
@@ -83,7 +82,7 @@ export const skills = [
       "REST APIs",
       "Authentication",
       "JWT",
-      "Server Architecture"
+      "Server Architecture",
     ],
   },
 
@@ -94,7 +93,7 @@ export const skills = [
       "PostgreSQL",
       "Supabase",
       "Firebase",
-      "MySQL"
+      "MySQL",
     ],
   },
 
@@ -107,7 +106,7 @@ export const skills = [
       "AI Agents",
       "RAG",
       "OpenAI API",
-      "Google Gemini API"
+      "Google Gemini API",
     ],
   },
 
@@ -119,7 +118,7 @@ export const skills = [
       "Webhooks",
       "API Automation",
       "Email Automation",
-      "Google Workspace Automation"
+      "Google Workspace Automation",
     ],
   },
 
@@ -129,7 +128,7 @@ export const skills = [
       "Full Stack Development",
       "Progressive Web Apps",
       "Responsive UI",
-      "SEO Basics"
+      "SEO Basics",
     ],
   },
 
@@ -138,7 +137,7 @@ export const skills = [
     items: [
       "React Native",
       "Cross-Platform Apps",
-      "Mobile UI Design"
+      "Mobile UI Design",
     ],
   },
 
@@ -152,7 +151,7 @@ export const skills = [
       "Docker",
       "Cloud Deployment",
       "Domain Management",
-      "Hosting"
+      "Hosting",
     ],
   },
 
@@ -161,7 +160,7 @@ export const skills = [
     items: [
       "Git",
       "GitHub",
-      "GitHub Actions"
+      "GitHub Actions",
     ],
   },
 
@@ -172,7 +171,7 @@ export const skills = [
       "OAuth",
       "JSON",
       "Third-party API Integration",
-      "Webhook Integration"
+      "Webhook Integration",
     ],
   },
 
@@ -183,7 +182,7 @@ export const skills = [
       "ESP32",
       "Sensors",
       "Embedded Programming",
-      "Computer Vision"
+      "Computer Vision",
     ],
   },
 
@@ -194,7 +193,7 @@ export const skills = [
       "UI Design",
       "UX Design",
       "Wireframing",
-      "Design Systems"
+      "Design Systems",
     ],
   },
 
@@ -206,7 +205,7 @@ export const skills = [
       "Business Analysis",
       "MVP Development",
       "Market Research",
-      "Startup Thinking"
+      "Startup Thinking",
     ],
   },
 
@@ -217,7 +216,7 @@ export const skills = [
       "Scrum",
       "Team Leadership",
       "Technical Documentation",
-      "Problem Solving"
+      "Problem Solving",
     ],
   },
 
@@ -229,7 +228,7 @@ export const skills = [
       "Object-Oriented Programming",
       "Operating Systems",
       "Database Management Systems",
-      "Computer Networks"
+      "Computer Networks",
     ],
   },
 
@@ -242,7 +241,17 @@ export const skills = [
       "Linux",
       "Windows",
       "Google Cloud",
-      "Firebase Console"
+      "Firebase Console",
+    ],
+  },
+
+  {
+    category: "Mindset & Process",
+    items: [
+      "Discipline",
+      "Self-Learning",
+      "Documentation",
+      "Iterative Building",
     ],
   },
 ];
