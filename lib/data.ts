@@ -48,18 +48,204 @@ export const stats = [
 ];
 
 export const skills = [
+ const skills = [
   {
-    category: "Programming",
-    items: ["C", "C++", "Data Structures (Learning)", "Algorithms (Learning)"],
+    category: "Programming Languages",
+    items: [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "C",
+      "C++",
+      "Java",
+      "HTML5",
+      "CSS3"
+    ],
   },
+
   {
-    category: "IoT & Hardware",
-    items: ["Sensor Integration", "Microcontrollers", "Embedded Logic", "Real-time Systems"],
+    category: "Frontend Development",
+    items: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Responsive Design",
+      "Framer Motion"
+    ],
   },
+
   {
-    category: "Problem Solving",
-    items: ["Logical Thinking", "System Design Basics", "Debugging", "Breaking Down Problems"],
+    category: "Backend Development",
+    items: [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Authentication",
+      "JWT",
+      "Server Architecture"
+    ],
   },
+
+  {
+    category: "Databases",
+    items: [
+      "MongoDB",
+      "PostgreSQL",
+      "Supabase",
+      "Firebase",
+      "MySQL"
+    ],
+  },
+
+  {
+    category: "AI & Machine Learning",
+    items: [
+      "Generative AI",
+      "Prompt Engineering",
+      "LLM Integration",
+      "AI Agents",
+      "RAG",
+      "OpenAI API",
+      "Google Gemini API"
+    ],
+  },
+
+  {
+    category: "Automation",
+    items: [
+      "n8n",
+      "Workflow Automation",
+      "Webhooks",
+      "API Automation",
+      "Email Automation",
+      "Google Workspace Automation"
+    ],
+  },
+
+  {
+    category: "Web Development",
+    items: [
+      "Full Stack Development",
+      "Progressive Web Apps",
+      "Responsive UI",
+      "SEO Basics"
+    ],
+  },
+
+  {
+    category: "Mobile Development",
+    items: [
+      "React Native",
+      "Cross-Platform Apps",
+      "Mobile UI Design"
+    ],
+  },
+
+  {
+    category: "Cloud & Deployment",
+    items: [
+      "Vercel",
+      "Netlify",
+      "Render",
+      "Railway",
+      "Docker",
+      "Cloud Deployment",
+      "Domain Management",
+      "Hosting"
+    ],
+  },
+
+  {
+    category: "Version Control",
+    items: [
+      "Git",
+      "GitHub",
+      "GitHub Actions"
+    ],
+  },
+
+  {
+    category: "API & Integrations",
+    items: [
+      "REST API",
+      "OAuth",
+      "JSON",
+      "Third-party API Integration",
+      "Webhook Integration"
+    ],
+  },
+
+  {
+    category: "IoT & Embedded Systems",
+    items: [
+      "Arduino",
+      "ESP32",
+      "Sensors",
+      "Embedded Programming",
+      "Computer Vision"
+    ],
+  },
+
+  {
+    category: "UI/UX & Design",
+    items: [
+      "Figma",
+      "UI Design",
+      "UX Design",
+      "Wireframing",
+      "Design Systems"
+    ],
+  },
+
+  {
+    category: "Product & Business",
+    items: [
+      "Product Strategy",
+      "Product Management",
+      "Business Analysis",
+      "MVP Development",
+      "Market Research",
+      "Startup Thinking"
+    ],
+  },
+
+  {
+    category: "Project Management",
+    items: [
+      "Agile",
+      "Scrum",
+      "Team Leadership",
+      "Technical Documentation",
+      "Problem Solving"
+    ],
+  },
+
+  {
+    category: "Computer Science",
+    items: [
+      "Data Structures",
+      "Algorithms",
+      "Object-Oriented Programming",
+      "Operating Systems",
+      "Database Management Systems",
+      "Computer Networks"
+    ],
+  },
+
+  {
+    category: "Tools & Platforms",
+    items: [
+      "VS Code",
+      "Postman",
+      "Supabase",
+      "Linux",
+      "Windows",
+      "Google Cloud",
+      "Firebase Console"
+    ],
+  },
+];
   {
     category: "Mindset & Process",
     items: ["Discipline", "Self-Learning", "Documentation", "Iterative Building"],
@@ -110,6 +296,33 @@ export const projects = [
   tech: ["HTML", "CSS", "JavaScript", "Firebase Auth", "Firebase Realtime Database", "Chart.js"],
   link: "https://the-spaceship.web.app/",
   github: "https://github.com/sadmansakib-cmd/life-tracker",
+  featured: true,
+},
+  {
+  title: "Slayer Fit",
+  category: "AI Fitness Platform · HealthTech · SaaS",
+  year: "2026",
+  problem:
+    "Many fitness enthusiasts struggle to manage workouts, nutrition, progress tracking, and health insights across multiple disconnected apps, making it difficult to stay consistent and achieve their fitness goals.",
+
+  solution:
+    "An AI-powered fitness platform that unifies personalized workout planning, calorie and nutrition tracking, progress analytics, and intelligent recommendations into a single, responsive web application. The platform delivers a seamless experience for users to build sustainable fitness habits.",
+
+  impact:
+    "Simplifies fitness management by centralizing health data, automating progress tracking, and providing personalized insights that help users stay motivated, improve consistency, and achieve better fitness outcomes.",
+
+  tech: [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "AI Integration",
+    "REST APIs",
+    "Supabase",
+    "Responsive Web Design"
+  ],
+
+  link: "https://slayer-fit.lovable.app/",
+  github: "https://github.com/sadmansakib-cmd/meal-tracker",
   featured: true,
 },
 {
