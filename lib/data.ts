@@ -255,12 +255,7 @@ export const skills = [
     ],
   },
 ];
-  {
-    category: "Mindset & Process",
-    items: ["Discipline", "Self-Learning", "Documentation", "Iterative Building"],
-  },
-];
-
+ 
 export const projects = [
  {
   title: "Hotel Management System",
